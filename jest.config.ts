@@ -5,7 +5,14 @@ export default {
       {
         "useESM": true
       }
-    ]
+    ],
+    "keystone-6-core-fields\\.cjs\\.js$": [
+        "ts-jest",
+        {
+            "useESM": false,
+            "tsconfig": "tsconfig.test.json"
+        }
+     ]
   },
   "moduleNameMapper": {
     "graphql-upload/(.*)": "graphql-upload/$1",
